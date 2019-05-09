@@ -19,3 +19,5 @@ For building the project, there are four stages. First is be to assemble the har
 9. A laptop computer
 
 Complete the hardware setup as per the image shown below:
+![Schematic Diagram](https://user-images.githubusercontent.com/41763883/57438424-ded4a880-7211-11e9-8014-297d041e9ec8.png)
+

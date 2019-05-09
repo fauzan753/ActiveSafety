@@ -24,3 +24,5 @@ Complete the hardware setup as per the image shown below:
 ### Setting up the communication:
 #### Bluetooth Serial:
 Connect the HC-05 Rx and Tx to Arduino Rx and Tx, hold down on the key and power on the module to go in the AT mode. On the serial bus monitor, use the AT commands to override the default baud rate of the HC-05 module with 115200 Mbps Baud Rate. For Linux, setup the bluetooth serial by first pairing with the HC-05 module and then binding the module to an available channel using:
+`$ sudo rfcomm release 0`
+`$ sudo rfcomm bind 0 <mac address of HC-05>`

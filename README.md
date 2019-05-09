@@ -21,3 +21,6 @@ For building the project, there are four stages. First is be to assemble the har
 Complete the hardware setup as per the image shown below:
 ![Schematic Diagram](https://user-images.githubusercontent.com/41763883/57438424-ded4a880-7211-11e9-8014-297d041e9ec8.png)
 
+### Setting up the communication:
+#### Bluetooth Serial:
+Connect the HC-05 Rx and Tx to Arduino Rx and Tx, hold down on the key and power on the module to go in the AT mode. On the serial bus monitor, use the AT commands to override the default baud rate of the HC-05 module with 115200 Mbps Baud Rate. For Linux, setup the bluetooth serial by first pairing with the HC-05 module and then binding the module to an available channel using:

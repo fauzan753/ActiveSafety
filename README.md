@@ -8,7 +8,7 @@
 
 ### Introduction:
 This project aims at integration of advanced driver assistance and active safety features in a 1/14th scale RWD vehicle. The project is developed in Python 3.7 programming environment. All the test conditions can be observed in the following brief video :
-[https://www.youtube.com/watch?v=tCD1SUM4V0s&t=7s](url)
+[https://youtu.be/tCD1SUM4V0s](url)
 
 ### Trying it yourself:
 For building the project, there are three stages. First is to assemble the hardware, second is to write and compile the programs, servers, clients and arduino and third is testing. Hardware used for the project is explained below:
